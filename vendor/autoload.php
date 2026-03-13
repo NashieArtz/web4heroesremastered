@@ -1,8 +1,8 @@
 <?php
 spl_autoload_register(function (string $class) {
 
-    $prefix = 'model\\';
-    $baseDir = __DIR__ . '/../model/';
+    $prefix = 'App\\';
+    $baseDir = __DIR__ . '/../App/';
 
     if (strncmp($prefix, $class, strlen($prefix)) !== 0) {
         return;
