@@ -1,0 +1,16 @@
+:root {
+
+    color-scheme: light-dark;
+
+}
+
+
+* {
+    margin: 0;
+    width: 100%;
+    font-family: "Winky Sans", sans serif;
+}
+
+#home-hero {
+    <!-- background-image: url("public/assets/img/bg-test.png"); -->
+}
